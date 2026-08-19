@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Mark } from "./Mark";
-import { primaryNav, site } from "@/lib/site";
+import { headerNav, primaryNav, site } from "@/lib/site";
 
 function isCurrent(pathname: string, href: string) {
   if (href === "/") return pathname === "/";
@@ -26,7 +26,7 @@ export function Header() {
           </span>
         </Link>
         <nav className="nav-desktop" aria-label="Primary">
-          {primaryNav.map((item) => (
+          {headerNav.map((item) => (
             <Link
               key={item.href}
               href={item.href}

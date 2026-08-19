@@ -27,6 +27,12 @@ export const primaryNav: NavItem[] = [
   { href: "/contact/", label: "Contact" },
 ];
 
+export const headerNav: NavItem[] = [
+  { href: "/frameworks/", label: "Frameworks" },
+  { href: "/coaching/", label: "Coaching" },
+  { href: "/contact/", label: "Contact" },
+];
+
 export const frameworks = [
   {
     href: "/3d-aiming/",
