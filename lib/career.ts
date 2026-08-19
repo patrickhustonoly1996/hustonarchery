@@ -80,20 +80,34 @@ export const careerBeats: CareerBeat[] = [
     title: "World Championships mixed bronze",
     stills: [
       {
-        src: "/career/action-2017.jpg",
-        alt: "Archery, May 2017.",
+        src: "/career/mexico-2017.jpg",
+        alt: "World Championships window, Mexico City, October 2017.",
+      },
+      {
+        src: "/career/mexico-2017-portrait.jpg",
+        alt: "Same window, Mexico City, October 2017.",
       },
     ],
   },
   {
     year: "2017",
     title: "British Indoor Champion",
+    stills: [
+      {
+        src: "/career/action-2017.jpg",
+        alt: "Archery, May 2017.",
+      },
+    ],
   },
   {
     year: "2018",
     place: "Lilleshall",
     title: "British 70-metre record, 687",
     stills: [
+      {
+        src: "/career/record-687-2018.jpg",
+        alt: "Patrick Huston with the grouping for the British 70-metre record, 687, Lilleshall, 5 May 2018.",
+      },
       {
         src: "/career/action-2018.jpg",
         alt: "Patrick Huston in Team GB kit, June 2018.",
@@ -132,5 +146,11 @@ export const careerBeats: CareerBeat[] = [
     year: "2026",
     place: "Lilleshall",
     title: "British Target Champion, and National Tour Stage 6 the same weekend",
+    stills: [
+      {
+        src: "/career/btc-2026-a.jpg",
+        alt: "Patrick Huston on the line, British Target Championship weekend, 8 August 2026. Photograph by Lesley Wrankmore.",
+      },
+    ],
   },
 ];
