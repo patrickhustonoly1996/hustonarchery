@@ -20,6 +20,7 @@ export type NavItem = {
 
 export const primaryNav: NavItem[] = [
   { href: "/frameworks/", label: "Frameworks" },
+  { href: "/career/", label: "Career" },
   { href: "/3d-aiming/", label: "3D Aiming" },
   { href: "/clicker/", label: "Clicker" },
   { href: "/front-arm/", label: "Front arm" },
@@ -31,6 +32,7 @@ export const primaryNav: NavItem[] = [
 
 export const headerNav: NavItem[] = [
   { href: "/frameworks/", label: "Frameworks" },
+  { href: "/career/", label: "Career" },
   { href: "/coaching/", label: "Coaching" },
   { href: "/contact/", label: "Contact" },
 ];

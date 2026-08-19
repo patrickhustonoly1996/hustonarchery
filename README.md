@@ -34,6 +34,7 @@ writes a static site to `out/`. Serve that folder with any static host.
 | `/front-arm` | Structure plus intent |
 | `/wind` | After 3D Aiming; the air |
 | `/foundations` | Technique / equipment / training / tournaments |
+| `/career` | Official highlight timeline |
 | `/coaching` | Work with Patrick |
 | `/contact` | Mailto + form stub |
 | `/school` | Pointer to Level Up |

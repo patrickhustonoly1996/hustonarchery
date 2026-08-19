@@ -24,6 +24,9 @@ export default function HomePage() {
             <Link className="btn btn-ghost" href="/3d-aiming/">
               3D Aiming
             </Link>
+            <Link className="btn btn-ghost" href="/career/">
+              Career
+            </Link>
             <Link className="btn btn-ghost" href="/coaching/">
               Work with me
             </Link>
@@ -138,6 +141,10 @@ export default function HomePage() {
                 The work is 70 metres outdoors, and field. I coach archers who
                 already shoot, and want the shot to hold up when it matters. I
                 live at Over Lawley Woods, under the Wrekin.
+              </p>
+              <p>
+                <Link href="/career/">The official highlights</Link> — a decade
+                of national and international results. Not the full book.
               </p>
             </div>
             <dl className="facts">

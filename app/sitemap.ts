@@ -11,6 +11,7 @@ const paths = [
   "/front-arm/",
   "/wind/",
   "/foundations/",
+  "/career/",
   "/coaching/",
   "/contact/",
   "/school/",
