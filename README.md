@@ -15,7 +15,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000/hustonarchery/](http://localhost:3000/hustonarchery/). `basePath` is `/hustonarchery` for the GitHub Pages project preview. Drop it in `next.config.ts` when the apex domain is live.
 
 ```bash
 npm run build
@@ -65,7 +65,9 @@ npx vercel
 
 ### GitHub Pages
 
-This repo includes `.github/workflows/pages.yml`. In the repo: **Settings → Pages → GitHub Actions**. The workflow builds `out/` and publishes it. Private-repo Pages needs GitHub Pro; if Pages is unavailable, use Vercel.
+Preview: [https://patrickhustonoly1996.github.io/hustonarchery/](https://patrickhustonoly1996.github.io/hustonarchery/).
+
+`next.config.ts` sets `basePath` and `assetPrefix` to `/hustonarchery` so CSS and JS resolve on that project URL. This repo includes `.github/workflows/pages.yml`. In the repo: **Settings → Pages → Source: GitHub Actions**. Drop the basePath when `hustonarchery.com` is pointed at the host. Do not change live DNS from this repo.
 
 ## Sources
 

@@ -57,7 +57,11 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link
+          rel="icon"
+          href={`${site.basePath}/favicon.svg`}
+          type="image/svg+xml"
+        />
         <meta name="theme-color" content="#100e0b" />
         <script
           type="application/ld+json"

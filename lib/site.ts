@@ -3,6 +3,8 @@ export const site = {
   person: "Patrick Huston OLY",
   domain: "hustonarchery.com",
   url: "https://hustonarchery.com",
+  /** Must match next.config basePath while the GitHub Pages project preview is live. */
+  basePath: "/hustonarchery",
   email: "patrick@hustonarchery.com",
   schoolUrl: "https://levelup-archery.com",
   spine: "The shot is not over when the arrow leaves.",
