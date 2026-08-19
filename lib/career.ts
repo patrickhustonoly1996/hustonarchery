@@ -1,7 +1,13 @@
+export type CareerStill = {
+  src: string;
+  alt: string;
+};
+
 export type CareerBeat = {
   year: string;
   place?: string;
   title: string;
+  stills?: CareerStill[];
 };
 
 /** Official highlights only. No invented places, scores, or missing years. */
@@ -10,6 +16,12 @@ export const careerBeats: CareerBeat[] = [
     year: "2011",
     place: "Telford",
     title: "British Junior Indoor Champion",
+    stills: [
+      {
+        src: "/career/junior-2011.jpg",
+        alt: "Junior championship field, 2011: tents on the grass and a full line of targets.",
+      },
+    ],
   },
   {
     year: "2013",
@@ -40,16 +52,38 @@ export const careerBeats: CareerBeat[] = [
     year: "2016",
     place: "Rio de Janeiro",
     title: "Olympic Games",
+    stills: [
+      {
+        src: "/career/rio-1.jpg",
+        alt: "Patrick Huston at full draw for Great Britain, Rio 2016 Olympic Games.",
+      },
+      {
+        src: "/career/rio-3.jpg",
+        alt: "Patrick Huston at full draw in the rain, Rio 2016 Olympic Games.",
+      },
+    ],
   },
   {
     year: "2016",
     place: "Nottingham",
     title: "European Championships: individual bronze, team silver",
+    stills: [
+      {
+        src: "/career/hq-portrait.jpg",
+        alt: "Official 2016 portrait of Patrick Huston in Team GB kit.",
+      },
+    ],
   },
   {
     year: "2017",
     place: "Mexico City",
     title: "World Championships mixed bronze",
+    stills: [
+      {
+        src: "/career/action-2017.jpg",
+        alt: "Archery, May 2017.",
+      },
+    ],
   },
   {
     year: "2017",
@@ -59,6 +93,12 @@ export const careerBeats: CareerBeat[] = [
     year: "2018",
     place: "Lilleshall",
     title: "British 70-metre record, 687",
+    stills: [
+      {
+        src: "/career/action-2018.jpg",
+        alt: "Patrick Huston in Team GB kit, June 2018.",
+      },
+    ],
   },
   {
     year: "2019",

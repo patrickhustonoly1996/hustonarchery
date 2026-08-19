@@ -593,11 +593,26 @@ textarea {
   color: var(--muted);
 }
 
+.stills {
+  display: grid;
+  gap: 0.45rem;
+}
+
 .still {
   aspect-ratio: 3 / 2;
   min-height: 5.5rem;
+  margin: 0;
+  overflow: hidden;
   border: 1px solid var(--rule);
   background: var(--bg-2);
+}
+
+.still img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 18%;
 }
 
 @media (min-width: 720px) {

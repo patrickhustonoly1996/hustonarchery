@@ -1,12 +1,35 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
-import { careerBeats } from "@/lib/career";
+import { careerBeats, type CareerStill } from "@/lib/career";
 
 export const metadata: Metadata = {
   title: "Career",
   description:
     "Official highlights: a decade of national and international recurve. Rio, Tokyo, records, and British titles.",
 };
+
+function Stills({ stills }: { stills?: CareerStill[] }) {
+  if (!stills?.length) {
+    return <div className="still" aria-hidden="true" />;
+  }
+
+  return (
+    <div className={stills.length > 1 ? "stills" : undefined}>
+      {stills.map((still) => (
+        <figure className="still" key={still.src}>
+          <Image
+            src={still.src}
+            alt={still.alt}
+            width={480}
+            height={320}
+            sizes="(min-width: 720px) 11rem, 100vw"
+          />
+        </figure>
+      ))}
+    </div>
+  );
+}
 
 export default function CareerPage() {
   return (
@@ -33,7 +56,7 @@ export default function CareerPage() {
                 <h2>{beat.title}</h2>
                 {beat.place ? <p className="place">{beat.place}</p> : null}
               </div>
-              <div className="still" aria-hidden="true" />
+              <Stills stills={beat.stills} />
             </li>
           ))}
         </ol>

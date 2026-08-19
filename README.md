@@ -46,7 +46,7 @@ Spine: *The shot is not over when the arrow leaves.*
 - Dark ground. Flo orange `#F98B1C` as the only accent.
 - No Level Up gold (`#FFD700`). No black-and-gold app look.
 - Voice: teaching voice. Honest, precise, slightly formal. Not “secret Olympic trick.”
-- Photographs can be added later if Patrick supplies rights. This build is type and space.
+- Photographs: a few of Patrick’s stills sit on `/career` next to the matching beats (`public/career/`). Tokyo and later US frames stay empty until those files arrive. No stock.
 
 The contact form opens a mail draft. It does not claim to send until Workspace mail is wired.
 
