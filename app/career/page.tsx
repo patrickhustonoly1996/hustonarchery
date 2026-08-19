@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { careerBeats, type CareerStill } from "@/lib/career";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Career",
@@ -18,13 +18,8 @@ function Stills({ stills }: { stills?: CareerStill[] }) {
     <div className={stills.length > 1 ? "stills" : undefined}>
       {stills.map((still) => (
         <figure className="still" key={still.src}>
-          <Image
-            src={still.src}
-            alt={still.alt}
-            width={480}
-            height={320}
-            sizes="(min-width: 720px) 11rem, 100vw"
-          />
+          {/* Prefix site.basePath while the GitHub Pages project preview is live. */}
+          <img src={`${site.basePath}${still.src}`} alt={still.alt} width={480} height={320} />
         </figure>
       ))}
     </div>
