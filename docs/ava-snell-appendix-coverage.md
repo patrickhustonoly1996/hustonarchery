@@ -43,10 +43,10 @@ Ratings: **well** = a panel reader can place her on the Appendix item · **thin*
 | Equipment | App A Knowledge col 1: knows bow length, weight, arrow length, spine; match for flight (p-06) | thin | Measuring/reading the bow. Specs and match-for-flight not named. |
 | Equipment | App A Behaviours col 1 (p-06) | out of scope | That column is blank on the pack page. |
 | Equipment | App A Skills/knowledge/behaviours col 2–3 (bare-shaft, serve, cut shafts, equipment log, spare kit, micro-tune, etc.) (p-06) | out of scope / thin | Intermediate/Conversion bar. Tuning “progressing” is enough for stage; do not chase col-3. |
-| Equipment | App B (form summary): setup, measurement, tuning, increasing ownership | well | Dad → Ava setup; tuning and measuring in Working on; autonomy still a Risk. |
+| Equipment | Coach-form Equipment bucket (App A p-06; App B p-09/10 has no separate Equipment heading) | well | Dad → Ava setup; tuning and measuring in Working on; autonomy still a Risk. |
 | Tactical | App A Tactical awareness col 1: learning weather and ways to cope; learning fundamental competition rules (p-06) | gap | No weather. No rules. |
 | Tactical | App A col 2: weather strategies (wind signals, aim-off, light); use of rules; project confidence / read opponents (p-06) | out of scope / gap | Intermediate column. Weather still matters because col 1 already asks for learning it. |
-| Tactical | App B (form summary): decision-making; process under pressure; deliver when it counts | well | Grit, obstacles, “choice on every arrow regarding the win,” mental rehearsal. |
+| Tactical | Coach-form Tactical bucket (App A p-06; App B p-09/10 has no separate Tactical heading) | well | Grit, obstacles, “choice on every arrow regarding the win,” mental rehearsal. Decision-making is that “choice on every arrow” line. |
 | Physical | App A Warm up/down — T2 uses it; T3 understands principles and does it consistently (p-07) | well (warm-up) / gap (warm-down) | “Warms up consistently with a comprehensive warmup.” Cool-down not mentioned. |
 | Physical | App A Global strength — wide/semi-structured activity (T2); structured programme, progression, bodyweight patterns (T3) (p-07) | well | Holistic training; coordination, strength, core, breath; consistent progression. Structured vs semi-structured not labelled. |
 | Physical | App A Archery-specific strength — drills/skills (T2); safe structured bow-training (T3) (p-07) | thin | High poundage for a slight 15-year-old; wants physicality so poundage can move. No bow-training programme named. |
@@ -59,7 +59,7 @@ Ratings: **well** = a panel reader can place her on the Appendix item · **thin*
 | Athlete intelligence | App A Training management — goal-setting; deliberate practice; some training record; punctual (p-08) | thin | Performance-analysis **journal** is under Mental, not here. Goal-setting, punctuality, deliberate-practice label: no comment. |
 | Athlete intelligence | App A Career duality — life options; commitment; identity broader than archer (p-08) | gap | No comment. Reasonable to skip unless education/life is already going in the score box. |
 | Athlete intelligence | App A Independent admin — comms with coach; calendar; has everything she needs (p-08) | thin | Kit coverage / shivering on a summer’s day is the only admin example. Calendar and comms: no comment. |
-| Athlete intelligence | App B (form summary): train/recover/life-stress; self vs others; preparation | well | All three are in the section, with a clear Risk on benchmarking against others. |
+| Athlete intelligence | Coach-form Athlete intelligence bucket (App A p-08; App B folds some of this into p-10 behaviours) | well | Train/recover/life-stress, self vs others, and preparation are all in the section, with a clear Risk on benchmarking against others. |
 | Mental | App A Psychological skills — “Psych profiling to be reviewed and established as appropriate to Pathway stage” (p-08, all cols) | out of scope | No formal mental profile required yet. |
 | Mental | App B Performance behaviours — resilience; adaptability; coachability; professionalism; communication; reliability; culture; sport/education/wellbeing balance (p-10) | well (part) / gap (part) | Resilience, self-pressure, determination, journal, competition-focused routine: well. Coachability, comms, team culture, education balance: no comment. Do not invent. |
 | Scores | App A Minimum thresholds / new-NAG exemption; upward trajectory; injury and distance transition (p-04) | gap | Coach commentary box is empty. Thresholds themselves are out of scope for year one. |
@@ -104,7 +104,7 @@ Do not pad these.
 
 - **Clicker and execution** as a named strength, with a specific risk (hand into face → rear shoulder locks → shot blocks). That is Appendix A draw/expansion/execution language in his voice.
 - **A real technical change in flight** (hand-led draw / chest posture) and an honest “working well, for repeatability under pressure.”
-- **Equipment ownership** as a story the panel can use: Dad set the bows up; Ava now does. Autonomy still a Risk. Matches Appendix B “increasing ownership… appropriate to stage.”
+- **Equipment ownership** as a story the panel can use: Dad set the bows up; Ava now does. Autonomy still a Risk. That is the p-06 NAG-stage ownership story, without needing Conversion-level tuning.
 - **Tactical / mental competitive character** — grit, obstacles, “one of the best competitive athletes I’ve ever worked with,” choice on every arrow. That is “deliver when it counts.”
 - **Nutrition in all three buckets**, including a maintained-habit Risk. That is the p-07 nutrition row, filled as Cait asked (not every cell; the ones that matter).
 - **Shoulder prehab (>9 months)** and a consistent comprehensive warm-up. Injury-prevention behaviour, not a test score.
